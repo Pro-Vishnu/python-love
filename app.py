@@ -15,7 +15,7 @@ def draw_heart():
     plt.xlim(-20, 20)
     plt.ylim(-20, 20)
     plt.axis('off')  # Hide axes
-    plt.text(-6, 0, 'jahnvi', fontsize=20, fontweight='bold', color='white', ha='center')
+    plt.text(-6, 0, 'Python', fontsize=20, fontweight='bold', color='white', ha='center')
 
     # Save the plot to a file
     plt.savefig('heart.png', bbox_inches='tight', dpi=300, facecolor='black')
